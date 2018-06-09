@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+    <dimen name="margin_top_20dp">20dp</dimen>
+
+    <!-- MainActivity -->
+    <dimen name="main_picture_custom_height">215dp</dimen>
+    <dimen name="library_text_view_height">60dp</dimen>
+    <dimen name="library_text_view_text_size">25sp</dimen>
+    <!-- Song ArrayList View -->
+    <dimen name="song_name_text_size">24sp</dimen>
+    <dimen name="author_of_the_song_text_size">12sp</dimen>
+    <dimen name="horizontal_line_divisor">1dp</dimen>
+    <dimen name="minutes_view_text_size">18sp</dimen>
+
+    <!-- Now Playing Activity -->
+    <dimen name="now_playing_text_view_size">24sp</dimen>
+    <dimen name="now_playing_song_name_text_size">29sp</dimen>
+    <dimen name="now_playing_artist_text_size">17sp</dimen>
+    <dimen name="now_playing_text_view_time_text_size">18sp</dimen>
+
+</resources>

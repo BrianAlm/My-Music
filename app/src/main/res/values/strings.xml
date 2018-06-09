@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">My Music</string>
+    <string name="now_playing_activity_name">Now Playing</string>
+    <string name="song_played_by">by : </string>
+    <string name="library_text_view_text">Library</string>
+    <!-- Main Activity -->
+    <string name="photo_content_type_desc">picture by : Clem Onojeghuo on Unsplash</string>
+    <!-- Song ArrayList View -->
+    <string name="play_text_view_text">Play</string>
+    <!-- Now Playing Activity -->
+    <string name="now_playing_content_desc_picture">picture by : Simon Noh on Unsplash </string>
+    <string name="now_playing_text_view">Now Playing</string>
+    <string name="starting_time">0:00</string>
+    <string name="now_playing_bar_progress_content_description">Progress Bar Image</string>
+    <string name="now_playing_pause_and_play_button">Play and Pause Button</string>
+
+</resources>
