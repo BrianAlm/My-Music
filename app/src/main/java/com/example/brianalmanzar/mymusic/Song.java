@@ -14,7 +14,6 @@ public class Song{
 
     private String name;
     private String artist;
-    private int length;
     private String lengthAsString;
 
     /*
@@ -28,7 +27,6 @@ public class Song{
     public Song(String songName, String artistName, int songLengthInSeconds){
         this.name = songName;
         this.artist = artistName;
-        this.length = songLengthInSeconds;
         this.lengthAsString = convertTheSongDurationIntoAnString(songLengthInSeconds);
     }
 

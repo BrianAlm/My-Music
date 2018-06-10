@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<Song> songs = new ArrayList<>();
-        songs.add(new Song("Love You", "Brian Almanzar",350));
-        songs.add(new Song("Got This!", "Ryan Almanzar",220));
-        songs.add(new Song("The Way We Do It","Jhombi Jhombi",450));
-        songs.add(new Song("Lets Bring It Down", "Jhombi Jhombi, Ryan Almanzar",125));
-        songs.add(new Song("More Of It","Super Stars",221));
-        songs.add(new Song("Another One","Jhonny Jack", 303));
-        songs.add(new Song("Play By The Rules","Great Band",454));
+        songs.add(new Song(getResources().getString(R.string.love_you), getResources().getString(R.string.brian_alm),350));
+        songs.add(new Song(getResources().getString(R.string.got_this), getResources().getString(R.string.ryan_alm),220));
+        songs.add(new Song(getResources().getString(R.string.the_way_we_do_it),getResources().getString(R.string.jhombi),450));
+        songs.add(new Song(getResources().getString(R.string.the_way_we_do_it), getResources().getString(R.string.jhombi) + ", " + getResources().getString(R.string.ryan_alm),125));
+        songs.add(new Song(getResources().getString(R.string.more_of_it),getResources().getString(R.string.super_s),221));
+        songs.add(new Song(getResources().getString(R.string.another_one),getResources().getString(R.string.jhonny_jack), 303));
+        songs.add(new Song(getResources().getString(R.string.play_by_the_rules),getResources().getString(R.string.great_band),454));
 
         SongArrayAdapter songListAdapter = new SongArrayAdapter(this, songs);
 

@@ -15,4 +15,23 @@
     <string name="now_playing_bar_progress_content_description">Progress Bar Image</string>
     <string name="now_playing_pause_and_play_button">Play and Pause Button</string>
 
+
+    <!-- Main Activity Song Names -->
+
+    <string name="love_you">Love You</string>
+    <string name="got_this">Got This!</string>
+    <string name="the_way_we_do_it">The Way We Do It</string>
+    <string name="lets_bring_it_down">Lets Bring It Down</string>
+    <string name="more_of_it">More Of It</string>
+    <string name="another_one">Another One</string>
+    <string name="play_by_the_rules">Play By The Rules</string>
+
+    <!-- Main Activity Song Artist -->
+    <string name="brian_alm">Brian Almanzar</string>
+    <string name="ryan_alm">Ryan Almanzar</string>
+    <string name="jhombi">Jhombi Jhombi</string>
+    <string name="super_s">Super Stars</string>
+    <string name="jhonny_jack">Jhonny Jack</string>
+    <string name="great_band">Great Band</string>
+
 </resources>
